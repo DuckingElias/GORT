@@ -1,0 +1,11 @@
+{
+  "name": "gort",
+  "version": "1.0.0",
+  "description": "GORT is a personal all-task interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "elias/gort",
+    "description": "GORT is a personal all-task interface",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Elias Kleppinger",
+            "email": "eliaskleppinger@web.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Gort\\": "src/"}
+    },
+    "require": {
+        "j4mie/idiorm": "^1.5",
+        "mustache/mustache": "^2.13",
+        "klein/klein": "^2.1",
+        "gabordemooij/redbean": "^5.7",
+        "illuminate/database": "^8.55",
+        "twig/twig": "^3.0"
+    }
+}
