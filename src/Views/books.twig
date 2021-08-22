@@ -1,0 +1,8 @@
+{% extends "partials/_base.twig" %}
+{% block content %}
+    <p>There are {{books_count}} books.</p>
+    {% for book in books %}
+        <h3>{{book.title}}</h3>
+        <hr>
+    {% endfor %}
+{% endblock %}
